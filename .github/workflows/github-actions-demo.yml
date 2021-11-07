@@ -13,6 +13,9 @@ jobs:
      run: |
         npm install
         npm run build
+   - name: Test
+     run: |
+        echo $(pwd)
    - name:  Deploy 
     # JamesIves/github-pages-deploy-action@4.1.1 not need token
      uses: JamesIves/github-pages-deploy-action@4.1.1
