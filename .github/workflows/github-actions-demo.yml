@@ -13,6 +13,6 @@ jobs:
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.1
       env:
-        BRANCH: master
-        FOLDER: build
+        branch: master
+        folder: build
 
