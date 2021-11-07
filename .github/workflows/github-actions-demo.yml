@@ -16,6 +16,7 @@ jobs:
    - name: Test
      run: |
         echo $(pwd)
+        tree
    - name:  Deploy 
     # JamesIves/github-pages-deploy-action@4.1.1 not need token
      uses: JamesIves/github-pages-deploy-action@4.1.1
